@@ -10,5 +10,3 @@ mkdir -p /home/runner/work/orangefox/out/target/product/yggdrasil/system/etc
 touch /home/runner/work/orangefox/out/target/product/yggdrasil/system/etc/ld.config.txt
 make -j$(nproc) recoveryimage
 
-echo "md5sum OrangeFox-unofficial-yggdrasil.img"
-md5sum $ANDROID_ROOT/out/target/product/yggdrasil/OrangeFox-unofficial-yggdrasil.img
