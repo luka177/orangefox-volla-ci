@@ -48,8 +48,8 @@ jobs:
         mkdir -p $ANDROID_ROOT
         cd $ANDROID_ROOT
         repo init -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
-        git clone https://github.com/luka177/android_device_volla_yggdrasil $ANDROID_ROOT/device/volla/yggdrasil
         repo sync -j8 -c --no-clone-bundle --no-tags
+        git clone https://github.com/luka177/android_device_volla_yggdrasil $ANDROID_ROOT/device/volla/yggdrasil
     
     - name: Build HAL
       run: |
