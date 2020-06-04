@@ -62,6 +62,6 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: Recovery image
-        path: /home/runner/work/orangefox/out/target/product/yggdrasil/OrangeFox-unofficial-yggdrasil.img
+        path: /home/runner/work/orangefox/out/target/product/yggdrasil/OrangeFox-Unofficial-yggdrasil.zip
 
     
