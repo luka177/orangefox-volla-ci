@@ -49,7 +49,7 @@ jobs:
         cd $ANDROID_ROOT
         repo init -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0 --depth=1
         repo sync -j8 -c 
-        git clone https://github.com/HelloVolla/android_kernel_volla_mt6763 -b lineage-16.0 kernel/volla/mt6763
+        git clone https://github.com/HelloVolla/android_kernel_volla_mt6763 -b lineage-16.0 kernel/volla/mt6763 -c b3ee0af5e433c0d643f2603d18c99894901a693b
         git clone https://github.com/luka177/android_device_volla_yggdrasil $ANDROID_ROOT/device/volla/yggdrasil
     
     - name: Build recovery
